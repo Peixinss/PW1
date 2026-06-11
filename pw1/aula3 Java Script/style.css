@@ -1,0 +1,12 @@
+table,th, tr{
+    border: 1px solid black;
+}
+div{
+    margin: 10px;
+}
+th, td{
+    text-align: center;
+}
+.col-200{
+    width: 200px;
+}
