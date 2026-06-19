@@ -5,13 +5,15 @@ $(document).ready(function() {
     $("#botao").click(function(){
         //ver como está o botão para fazer a ação adequada
         if($("#botao").text() == "Esconder"){
+            
             //esconder a div
             $("#tela").hide();
-            $(this).text("mostrar");
+            $(this).text("Mostrar");
         } else {
+            
             //Mostrar a div
             $("#tela").show();
-            $(this).text("esconder");
+            $(this).text("Esconder");
         }
         });
     });
